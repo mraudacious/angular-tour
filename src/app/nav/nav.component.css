@@ -1,0 +1,61 @@
+/* Basic Button Styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding to your preference */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
+  /* Additional Styles */
+  /* You can add more styles for different button variations, e.g., primary, secondary, success, danger, etc. */
+  
+  .primary-button {
+    background-color: rgb(157, 6, 6);
+    color: #fff;
+  }
+  
+  .secondary-button {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .success-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .danger-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Disabled Button Style */
+  .button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
+  
+  /* Button with Icon */
+  .button-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-icon i {
+    margin-right: 8px; /* Adjust icon spacing */
+  }
+  
+  /* You can add more specific button styles and variations as needed */
+  
